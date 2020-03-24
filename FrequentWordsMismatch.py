@@ -20,7 +20,7 @@ def HammingDistance(p, q):
 def Neighbors(Pattern, d): 
     ''' Find all neighbors of a pattern
 
-    Find all kmers that all 
+    Find all kmers that match a given kmer with up to d mismatches allowed
 
     Args:
         Pattern: dna string
